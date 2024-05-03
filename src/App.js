@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Dsp100 from './Screens/Dsp100';
+import Dsp300 from './Screens/Dsp300';
+import Home from './Screens/Home';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+
+        <Route path='/' element={<Home/>} />
+        <Route path='/dsp300' element={<Dsp300/>} />
+        <Route path='/dsp100' element={<Dsp100/>} />
+
+      </Routes>
+      
     </div>
   );
 }
