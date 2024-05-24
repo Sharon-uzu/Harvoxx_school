@@ -39,14 +39,14 @@ const Header = () => {
                         <NavLink to='/' activeclassName = 'active' onClick={closeMenuBar}>Home</NavLink>
                         <NavLink to='/dsp300' activeclassName = 'active' onClick={closeMenuBar}>DSP-300</NavLink>
                         <NavLink to='/dsp100' activeclassName = 'active' onClick={closeMenuBar}>DSP-100</NavLink>
-                        <NavLink to='/a' activeclassName = 'active' onClick={closeMenuBar}>Exclusive Training</NavLink>
-                        <NavLink to='/a' activeclassName = 'active' onClick={closeMenuBar}>Contact Us</NavLink>
+                        <a href='https://harvoxx.com/' activeclassName = 'active' onClick={closeMenuBar} target='_blank'>Exclusive Training</a>
+                        <a href='#contact' activeclassName = 'active' onClick={closeMenuBar}>Contact Us</a>
                     </div>
 
-                    <div className="list2">
+                    {/* <div className="list2">
                         <Link to='/a' className='btn btn1' onClick={closeMenuBar}>Log in</Link>
                         <Link to='/a' className='btn btn2' onClick={closeMenuBar}>Sign up</Link>
-                    </div>
+                    </div> */}
                 </ul>
             </nav>
             

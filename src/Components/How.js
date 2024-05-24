@@ -71,27 +71,51 @@ const How = ({title,text}) => {
 
                 <div className='card c-card'>
                     <h2>2</h2>
-                    <h3>Structured Training Duration:</h3>
-                    <p>Selected participants undergo a rigorous 3-month physical training program, conducted 2-3 times weekly, focused on their chosen tech skills.</p>
+                    <h3>Comprehensive Learning:</h3>
+                    <p>Participants not only gain technical proficiency but also acquire business acumen. They learn to monetize their skills, understand the business of tech, collaborate effectively, build high-performance teams, and discover co-founder opportunities.</p>
                 </div>
 
                 <div className='card c-card'>
                     <h2>3</h2>
-                    <h3>Structured Training Duration:</h3>
-                    <p>Selected participants undergo a rigorous 3-month physical training program, conducted 2-3 times weekly, focused on their chosen tech skills.</p>
+                    <h3>Team Formation:</h3>
+                    <p>After 10 weeks, participants are strategically grouped into teams of 5-7 individuals from diverse categories, ensuring a dynamic mix of skills and perspectives.</p>
+                </div>
+
+                <div className='card c-card'>
+                    <h2>4</h2>
+                    <h3>Expert Guidance:</h3>
+                    <p>Each team receives dedicated support with a Product Manager, Backend Developer, and an experienced mentor. This guidance is instrumental in developing a successful Minimum Viable Product (MVP).</p>
+                </div>
+
+                <div className='card c-card'>
+                    <h2>5</h2>
+                    <h3>Access to Techlauncher:</h3>
+                    <p>Teams and their products gain access to Techlauncher's incubation/acceleration program where they will gain business development training, product development support, pre-launch marketing strategies and potential funding opportunities.</p>
+                </div>
+
+                <div className='card c-card'>
+                    <h2>6</h2>
+                    <h3>Funding for Excellence:</h3>
+                    <p>The teams exhibiting outstanding market validation, traction, and teamwork stand a chance to receive instant NGN1,000,000 funding after a 6-month pilot. They continue to benefit from business mentorship and connections to Angel Investors and VC's through Techlauncher.</p>
+                </div>
+
+                <div className='card c-card'>
+                    <h2>7</h2>
+                    <h3>Pathways to Employment:</h3>
+                    <p>Successful participants with a desire for employment can explore internship opportunities with our partnering companies upon completing their team projects, ensuring a seamless transition from training to practical industry experience.</p>
                 </div>
 
             </Carousel>
 
 
-            <div className='learn'>
+            {/* <div className='learn'>
                 <Link to='/' >
                     <button>
                         Learn more 
                         <img src={arr} alt="" />
                     </button>
                 </Link>
-            </div>
+            </div> */}
             
         
         </section>
@@ -114,7 +138,7 @@ const How = ({title,text}) => {
 
                         <div className='p-item'>
                             <img src={check} alt="" />
-                            <span>Mobile App Dev.</span>
+                            <span>Web Dev.(Frontend)</span>
                         </div>
 
                         <div className='p-item'>
@@ -127,10 +151,6 @@ const How = ({title,text}) => {
                             <span>Product design</span>
                         </div>
 
-                        <div className='p-item'>
-                            <img src={check} alt="" />
-                            <span>Mobile App Dev.</span>
-                        </div>
 
                         <div className='p-item'>
                             <img src={check} alt="" />

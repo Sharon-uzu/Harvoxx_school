@@ -4,6 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 import img from '../Images/top1.png';
 import img1 from '../Images/top2.png'
 import { FaStar} from "react-icons/fa";
+import { MultiCards } from '../utils/Data';
 
 
 
@@ -54,7 +55,9 @@ const Testimony = () => {
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
       >
-      <div className='test-main'>
+        {
+        MultiCards && MultiCards.map(item => (
+      <div className='test-main' key={item.id}>
         <div className='flex-main'>
 
           <div className='stars'>
@@ -65,21 +68,25 @@ const Testimony = () => {
             <FaStar className='star'/>
 
           </div>
-          <p>At  edukate, we offer the easiest and most affordable learning solutions  not minding proximity. We are the best and most trusted learning platform At  edukate, we offer the easiest and most affordable learning  </p>
+          <p>{item.text}</p>
 
           <div className='f-i'>
-            <img src={img} alt="" />
+            <img src={item.image} alt="" />
             <div>
-              <h4>Lisa Adeyemi</h4>
-              <h5>Graduate Intern</h5>
+              <h4>{item.name}</h4>
+              <h5>{item.phone}</h5>
             </div>
           </div>
           
           
         </div>
 
+        
+
                     
      </div>
+     ))
+    }
 
      <div className='test-main'>
         <div className='flex-main'>

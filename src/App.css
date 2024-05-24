@@ -48,7 +48,7 @@ header nav .logo img{
 }
 
 header nav ul{
-  width: 80%;
+  width: 55%;
   margin: 0;
   display: flex;
   height: 100%;
@@ -57,7 +57,7 @@ header nav ul{
 }
 
 header nav ul .list1{
-  width: 65%;
+  width: 100%;
   display: flex;
   height: 100%;
   align-items: center;
@@ -305,13 +305,16 @@ header nav ul .list2 .btn2{
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
+
 }
 
 .why .e-cards .card{
   width: 32%;
   background: #5337FF0F;
   text-align: center;
+  background-color: #fff;
   padding: 30px 0;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -320,7 +323,7 @@ header nav ul .list2 .btn2{
   margin: auto;
   background-color: #fff;
   margin-bottom: 50px;
-  text-align: start;
+  /* text-align: start; */
 }
 
 .why .e-cards .card img{
@@ -331,7 +334,7 @@ header nav ul .list2 .btn2{
 }
 
 .why .e-cards .c-card h2{
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 24px;
   color: #363636;
   font-weight: 700;
@@ -343,7 +346,7 @@ header nav ul .list2 .btn2{
   font-size: 26px;
   color: #363636;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   
 }
 
@@ -882,6 +885,378 @@ header nav ul .list2 .btn2{
 }
 
 
+/* APPLICATION MODAL */
+.two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confirm{
+  width: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.confirm h3{
+  font-size: 25px;
+  color: red;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+.confirm h4{
+  font-size: 19px;
+  color: #2F358D;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.confirm p{
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #2D378E;
+}
+.confirm ol{
+  text-align: start;
+}
+.confirm ol li{
+  font-size: 18px;
+  margin-bottom: 10px;
+  list-style: numeric;
+}
+.confirm button{
+  margin-top: 30px;
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  background: #DEA729;
+  border: none;
+}
+
+
+
+/* APPLICATION FORM STARTS HERE */
+.application{
+  display: flex;
+  
+}
+
+.application .form-text{
+  width: 45%;
+  background: #F1C7381A;
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  background-image: url(Images/bg3.jpeg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.application .form-text .logo{
+  width: 50%;
+  text-align: start;
+  z-index: 12;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+
+.application .form-text .logo img{
+  width: 77%;
+  object-fit: contain;
+  margin-bottom: 20px;
+  z-index: 13;
+  position: relative;
+}
+
+.application .form-text h2{
+  width: 88%;
+  margin: auto;
+  text-align: center;
+  font-size: 26px;
+  line-height: 40px;
+  /* height: 45%; */
+  color: #fff;
+  position: relative;
+  z-index: 20;
+  margin-top: 35%;
+  font-family: 'Edu SA Beginner', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-weight: 900;
+background-color: hsla(216, 54%, 11%,.4);
+padding: 10px;
+}
+
+
+
+.application .form-text .pix1{
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, .3);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+}
+.application .form-text .pix1 img{
+  width: 70%;
+  /* height: 100%; */
+  height: 55vh;
+  margin-top: 10px;
+}
+
+.application .formHolder{
+  background-color: #fff;
+  width: 55%;
+  padding: 70px 30px 0 30px;
+  text-align: center;
+}
+
+.application .formHolder h4{
+  font-size: 24px;
+  font-weight: 600;
+  /* line-height: 36px; */
+  margin-bottom: 15px;
+  text-align: left;
+
+}
+
+.application .formHolder p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000B2;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.application .formHolder .form{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.application .formHolder .form label{
+  width: 45%;
+  margin-bottom: 15px;
+}
+.application .formHolder .form label p{
+  margin-bottom: 7px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+.application .formHolder .form label input{
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #0000004D;
+  padding-left: 10px;
+}
+
+input[type="date"] {
+  padding: 5px;
+  font-size: 13px;
+  color: #5e5e5e;
+  border-radius: 4px;
+}
+
+
+.application .formHolder .form label input::placeholder{
+  font-size: 12px;
+}
+
+.application .formHolder .form label select{
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #0000004D;
+  padding-left: 10px;
+  font-size: 13px;
+  color: #5e5e5e;
+}
+
+
+
+.application .submit{
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.application .submit button{
+  width: 100%;
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  background: #DEA729;
+  border: none;
+}
+
+/* APPLICATION FORM ENDS HERE */
+
+
+
+/* CONGRAT STARTS HERE */
+.congrat{
+  background-color: #f9f8ff;
+  padding-top: 40px;
+  text-align: center;
+  
+}
+.congrat h3{
+  width: 65%;
+  margin: auto;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 40px;
+}
+
+.congrat img{
+  width: 40%;
+  object-fit: contain;
+  margin: 0;
+}
+
+.congrat p{
+  width: 60%;
+  margin: auto;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.congrat button{
+  padding: 5px 25px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 50px;
+  background: #DEA729;
+  border: none;
+}
+
+/* CONGRATS END HERE */
+
+
+/* CONTACT STARTS HERE */
+.contact{
+  width: 100%;
+  padding: 70px 0;
+}
+.contact h1{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #2F358D;
+}
+.contact .contact-form{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .contact-form .inputs{
+  width: 45%;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.contact .contact-form .inputs label{
+  width: 90%;
+}
+
+.contact .contact-form .inputs input {
+  width: 100%;
+  border: 1px solid #5e5e5e;
+  padding-left: 10px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+
+.contact .contact-form .inputs textarea {
+  width: 100%;
+  border: 1px solid #5e5e5e;
+  padding-left: 10px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.contact .contact-form .inputs .sub{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: #DEA729;
+  outline: none;
+  border: none;
+  width: 90%;
+}
+
+.contact .contact-form .info{
+  width: 45%;
+  background-color: #fff;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+  padding: 20px 0;
+}
+.contact .contact-form .info div{
+  width: 80%;
+  margin: auto;
+  
+}
+.contact .contact-form .info div h1{
+  text-align: start;
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #000;
+  margin-top: 15px;
+  color: #2F358D;
+
+}
+
+.contact .contact-form .info div p{
+  width: 100%;
+  margin-bottom: 20px;
+  color: #000;
+}
+.contact .contact-form .info div a{
+  color: #000;
+  width: 100%;
+}
+
+.contact .contact-form .info .link p{
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.cont-thanks h1{
+  font-size: 20px;
+}
+
+
 @media screen and (max-width:1400px){
   header nav ul .list1{
     width: 60%;
@@ -900,6 +1275,9 @@ header nav ul .list2 .btn2{
   }
   .pricing .plans .plan .benefit{
     width: 90%;
+  }
+  .application .form-text h2{
+    margin-top: 60%;
   }
 
 }
@@ -1031,6 +1409,28 @@ header nav ul .list2 .btn2{
   .faq .faq-cards .faq-c{
     width: 48%;
   }
+
+  /* contact */
+  .contact .contact-form .inputs{
+    width: 48%;
+  }
+  .contact .contact-form .info{
+    width: 48%;
+  }
+
+  /* Application */
+  .application{
+    flex-wrap: wrap;
+  }
+  .application .form-text{
+    display: none;
+    
+  }
+  .application .formHolder{
+    width: 100%;
+  }
+
+
 }
 @media screen and (max-width:700px){
 
@@ -1108,6 +1508,18 @@ header nav ul .list2 .btn2{
 
   .faq h2{
     font-size: 45px;
+  }
+
+  /* contact */
+  .contact .contact-form{
+    flex-wrap: wrap;
+  }
+  .contact .contact-form .inputs{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact .contact-form .info{
+    width: 100%;
   }
 
 }
@@ -1259,6 +1671,19 @@ header nav ul .list2 .btn2{
   .newsletter .news .form button{
     width: 32%;
     font-size: 14px;
+  }
+  /* Application */
+  .application .formHolder .form label{
+    width: 100%;
+  }
+
+  /* congrat */
+  .congrat h3{
+    font-size: 26px;
+    width: 85%;
+  }
+  .congrat p{
+    width: 85%;
   }
 
 }

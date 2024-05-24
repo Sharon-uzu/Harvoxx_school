@@ -9,13 +9,13 @@ const Faq100 = () => {
         },
 
         {
-            ques:"How much does it cost to be part of DSP-100?",
-            answer:"The program is free. The trainees will not have to pay a dime throughout the training. Certification is also FREE."
+            ques:"What is the ultimate goal for DSP-100?",
+            answer:"The ultimate goal is to train and empower at least 2000 female youths in Rivers State on various Tech skills, mentor them to achieve success and produce at least 100 co-founders in the next few years. This will go a long way to reduce unemployment and boost the economy of our state. This is also in line with the overall vision of the Company to make Port Harcourt one of the cities with highest number of female Techies in Africa by 2031."
         },
 
         {
-            ques:"How are people selected for the training?",
-            answer:"The announcement of beneficiaries will come after the review of online applications by our team. Some trainees, however, are also selected based on the recommendation from very reputable individuals in the State."
+            ques:"How much does it cost to be part of DSP-100?",
+            answer:"The program is free. The trainees will not have to pay a dime throughout the training. Certification is also FREE."
         },
 
         {
@@ -24,8 +24,8 @@ const Faq100 = () => {
         },
 
         {
-            ques:"What is the ultimate goal for DSP-100?",
-            answer:"The ultimate goal is to train and empower at least 2000 female youths in Rivers State on various Tech skills, mentor them to achieve success and produce at least 100 co-founders in the next few years. This will go a long way to reduce unemployment and boost the economy of our state. This is also in line with the overall vision of the Company to make Port Harcourt one of the cities with highest number of female Techies in Africa by 2031."
+            ques:"How are people selected for the training?",
+            answer:"The announcement of beneficiaries will come after the review of online applications by our team. Some trainees, however, are also selected based on the recommendation from very reputable individuals in the State."
         },
 
         {

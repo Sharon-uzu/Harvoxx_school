@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import img from '../Images/blue.png';
 import img1 from '../Images/white.png'
+import { Link } from 'react-router-dom';
 
 const Trial = () => {
 
@@ -67,7 +68,7 @@ const Trial = () => {
               </div>
 
               <div className="btn">
-                <button>Learn More</button>
+                <Link to='/dsp300'><button>Learn More</button></Link>
               </div>
 
             </div>
@@ -101,7 +102,7 @@ const Trial = () => {
               </div>
 
               <div className="btn">
-                <button>Learn More</button>
+                <a href="https://harvoxx.com/" target='_blank'><button>Learn More</button></a>
               </div>
 
             </div>
@@ -139,7 +140,7 @@ const Trial = () => {
               </div>
 
               <div className="btn">
-                <button>Learn More</button>
+                <Link to='/dsp100'><button>Learn More</button></Link>
               </div>
 
             </div>

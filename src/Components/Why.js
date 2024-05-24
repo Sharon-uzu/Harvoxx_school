@@ -45,14 +45,14 @@ const Why = () => {
             </div>
 
 
-            <div className='learn'>
+            {/* <div className='learn'>
                 <Link to='/' >
                     <button>
                         Learn more 
                         <img src={arr} alt="" />
                     </button>
                 </Link>
-            </div>
+            </div> */}
             
         
         </section>
