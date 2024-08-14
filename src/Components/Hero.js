@@ -42,7 +42,11 @@ const Hero = ({title, text, btn, link, type, noLink}) => {
                   </Link>
                 </>
                 :
-                <>
+                ''
+                }
+
+              {type === "dsp100" ? <>
+                
                 <Link 
                 // to={props.reg}
                  >
@@ -57,7 +61,18 @@ const Hero = ({title, text, btn, link, type, noLink}) => {
                       
                       </button>
                       </Link>
+                </> : ''
+                }
+
+            {type === "home" ? <>
+                <a href={link} >
+                  <button type="button" className='enrollment' 
+                  
+                  >{btn}</button>
+                  </a>
                 </>
+                :
+                ''
                 }
 
 

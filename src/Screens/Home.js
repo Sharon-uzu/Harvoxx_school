@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div>
         <Header/>
-        <Hero title="Unlock opportunities with Digital Skills" text="Cultivating Tommorrow's Tech innovators: We empower you with the skills you need to forge and nurture the career of your dreams." btn='Explore Programmes' link='#program'/>
+        <Hero title="Unlock opportunities with Digital Skills" text="Cultivating Tommorrow's Tech innovators: We empower you with the skills you need to forge and nurture the career of your dreams." btn='Explore Programmes' link='#program' type="home"/>
         <Why/>
         <Trial/>
         <Testimony/>

@@ -23,7 +23,7 @@ const Trial = () => {
 
   return (
     <div className='pricing' id='program'>
-        <h2>Our Program</h2>
+        <h2>Our Programmes</h2>
 
 
         {/* <div className='price-plan'>

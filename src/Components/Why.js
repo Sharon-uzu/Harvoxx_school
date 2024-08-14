@@ -75,7 +75,7 @@ const Why = () => {
 
                         <div className='p-item'>
                             <img src={check} alt="" />
-                            <span>Mobile App Dev.</span>
+                            <span>Graphics Design</span>
                         </div>
 
                         <div className='p-item'>
@@ -90,7 +90,7 @@ const Why = () => {
 
                         <div className='p-item'>
                             <img src={check} alt="" />
-                            <span>Mobile App Dev.</span>
+                            <span>Web Development</span>
                         </div>
 
                         <div className='p-item'>
